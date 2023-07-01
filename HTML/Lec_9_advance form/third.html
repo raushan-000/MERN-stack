@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>complex form </h2>
+    <form>
+        <fieldset>
+            <legend>Personal information</legend>
+            <label for="name">Name:</label><br/>
+        <input type="text" name="name" id="name">
+        
+        <br/><br/>
+        <label for="email">Email:</label><br/>
+        <input type="email" name="email" id="email">
+
+        <br/><br/>
+        <label for="phoneNumber">Phone No.:</label><br/>
+        <input type="tel" name="phoneNumber" id="phoneNumber">
+
+        <label for="dateofbirth">Date of birth:</label>
+        <input type="date" name="dateofbirth" id="dateofbirth">
+
+        <br/>
+        <span>Gender:</span>
+       
+            <input type="radio" name="Gender" id="Male">
+            <label for="Male">male</label>
+            
+            <input type="radio" name="Gender" id="Female">
+            <label for="Female">Female</label>
+
+            <br/>
+            <br/>
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="">Choose Country</option>
+                <option value="US">united State</option>
+                <option value="India">India</option>
+                <option value="Australia">australia</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Address</legend>
+
+            <label for="street">Street</label>
+            <input type="text" name="street" id="street">
+            <br/><br/>
+
+            <label for="City">City</label>
+            <input type="text" name="City" id="City">
+            <br/><br/>
+
+            <label for="State">State</label>
+            <input type="text" name="State" id="State">
+            <br/><br/>
+
+            <label for="code">ZIP code</label>
+            <input type="text" name="code" id="code">
+            <br/><br/>
+        </fieldset>
+
+        <fieldset>
+            <legend>Other information</legend>
+            <label for="comment">Additional comment</label><br/>
+            <textarea name="comment" id="comment" cols="30" rows="4"></textarea>
+
+            <br>
+            <label for="terms">I agree to the terms of service</label>
+            <input type="checkbox" name="terms" id="terms">
+
+            <br/>
+            <button>submit</button>
+        </fieldset>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+Tag--
+Tag is a markup entity which provide structure, meaning/semantics and formatting to content
+
+
+semantics Tag
+-- <h1>----<h6>
+<p>
+<a>
+<ul> <ul>
+<table? <tr> <td>
+<ing>
+<form>
+<input>
+
+
+structure Tag
+-- html
+head body
+<header>
+<main>
+<footer>
+aside
+articles
+section
+now
+
+
+
+
+formatting Tag
+-- body
+i
+u
+s
+strong
+en
+sup sub
+pre
+code
+
+
+
