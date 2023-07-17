@@ -1,0 +1,27 @@
+p{
+    color: red;
+}
+
+/* p is selectror, color is property, brown is value */
+/* sirf article pr apply hoga */
+#article1{
+    background-color: yellow;
+    color: rgb(128, 0, 255);
+}
+/* class ke liye dot use krenge  */
+.paraclass{
+    background-color: green;
+    background-color: red;
+    background-color: aqua;
+    color: black;
+    color:purple;
+}
+/* for group styling */
+p,article{
+    width:500px
+}
+/* koi specific paragraph ke lie class se separate krenge */
+p.paraclass2{
+    color: green;
+    text-align: center;
+}
