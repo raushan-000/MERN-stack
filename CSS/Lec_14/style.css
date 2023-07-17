@@ -1,0 +1,27 @@
+p{
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-size: 20px;
+    font-style: oblique;
+    /* font-family: cursive; */
+    font-weight: 900;
+    /* to use imported font */
+    font-family: 'Pangolin', cursive;
+}
+#para1{
+    background-color: yellow;
+    color: red;
+}
+
+#para2{
+    background-color: rgb(218, 150, 197)
+}
+#para3{
+    /* a for transparency */
+    background-color: rgba(38, 216, 80, 0.268); 
+}
+.class1{
+    background-color: #8b9f3a6b;
+}
+#para4{
+    background-color: hsla(27, 77%, 46%, 0.615);
+}
