@@ -1,26 +1,76 @@
-<!-- CSS Display Property -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lec_16</title>
-    <style>
-        div{
-            border: 1px solid red;
-            width: 300px;
-            height: 300px;
-            margin: 50px;
-            padding: 5px;
-        }
-    </style>
-</head>
-<body>
-    <div>
-        Welcome to codeHelp
-    </div>
-    <div>
-        Welcome to CodeHelp 2.0
-    </div>
-</body>
-</html>
+<!-- CSS Display Property : Inline, Block, and Inline-Block -->
+<!-- Difference between block and inline
+            Block                                              inline
+    1. new line                                           1. same line
+    2. takes width from extreme left to extreme rigt      2. takes widht of content
+    3. can apply custom width & height                    3. can't apply custom width and height
+    4. can apply margin & padding in all direction        4. only in horizontal direction    -->
+
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>Lec_16</title>
+            <style>
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    /*box sizing border box krne se box actual size retain krta hai
+                nhi krne se box expand ho jata */
+                }
+                .box {
+                    width: 300px;
+                    height: 300px;
+                    border: solid red 1px;
+                    padding: 20px;
+                    /* to convert block into inline
+                use display : inline */
+                    display: inline;
+                }
+                /* div{
+                border: 1px solid red;
+                width: 300px;
+                height: 300px;
+                margin: 50px;
+                padding: 5px;
+            } */
+                span {
+                    border: solid green 1px;
+                    width: 300px;
+                    height: 300px;
+                    padding: 20px;
+                    margin: 20px;
+                    /* to convert inline into block
+                use dispaly : block */
+                    display: block;
+                }
+                #span1 {
+                    border: solid green 2px;
+                    width: 300px;
+                    height: 200px;
+                    padding: 15px;
+                    margin: 10px;
+                }
+            </style>
+        </head>
+        <body>
+            <!-- <div>
+            Welcome to codeHelp
+        </div>
+        <div>
+            Welcome to CodeHelp 2.0
+        </div> -->
+            <div class="box">
+                welcome to codehelp
+            </div>
+            <span>
+                Chandrayan-2
+            </span>
+            <span>
+                Chandrayaan-3
+            </span>
+        </body>
+    </html>
+    
