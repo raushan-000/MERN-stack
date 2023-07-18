@@ -1,0 +1,35 @@
+<!-- Inline block
+    --behaves like inline but we can set custom 
+         width and height  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inline block</title>
+</head>
+<style>
+    *{
+        margin: 10px;
+        padding: 5px;
+        box-sizing: border-box;
+        /*box sizing border box krne se box actual size retain krta hai
+        nhi krne se box expand ho jata */
+    }
+    
+    span{
+        border: solid green 2px;
+        width: 400px;
+        height: 300px;
+        display: inline-block;
+        /* Inline element ke upar custom width , height use krne 
+           ke liye display : inline-block use krenge  */
+        
+    }
+</style>    
+<body>
+   <span>
+    india
+   </span>
+</body>
+</html>
